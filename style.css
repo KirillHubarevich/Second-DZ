@@ -46,7 +46,8 @@ header span {
 
 
 .about-section {
-    background-color: #fff;
+    background-color: #fafaff;
+    padding: 100px 0;
 }
 
 select {
@@ -54,29 +55,32 @@ select {
     border-radius: 5px;
     width: 150px;
     height: 36px;
-    background: rgba(255, 255, 255, 0);
     font-weight: 400;
     font-size: 16px;
-    list-style-image: url("./images/ep_arrow-down.svg");
-    margin-top: 100px;
+    appearance: none;
+    background-image: url("./images/ep_arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 10px right 12px;
+    padding: 9px 12px;
 }
+
 
 .section-title {
     font-weight: 700;
     font-size: 24px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     width: 80px;
     height: 57px;
     list-style-image: url("./images/solar_map-arrow-up-bold.svg");
-    padding-left: 20px;
+    padding: 0 20px;
 }
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .label {
@@ -128,10 +132,10 @@ table {
 th, td {
     font-weight: 700;
     font-size: 14px;
+    padding: 12px 15px;
 }
 td {
     font-weight: 400;
-    padding-left: 15px;
 }
 .first {
     width: 55px;
@@ -140,7 +144,7 @@ td {
 
 footer {
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 26px 1px;
+    padding: 26px 0;
 }
 
 .footer-link {
